@@ -1,0 +1,1 @@
+#I have made the gallery,throught html, css and javascript. when i click on the image and then the image will become open. 

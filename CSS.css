@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.input {
+    color: red;
+}
+
+.img {
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+
+.img2 {
+    padding-right: 10px;
+}
+
+
+
+@media (min-width: 580px) {
+    .container {
+        height: 50%;
+        width: 360px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+        position: relative;
+        left: 30%;
+        border: 2px solid black;
+    }
+
+    .images {
+        height: 150px;
+        width: 150px;
+    }
+
+    .img {
+        padding-top: 15px;
+    }
+
+}
+
+@media (min-width:300px) {
+    .text_img {
+        margin: 0px;
+    }
+}
+
+@media (min-width: 370px)and (max-width:570px) {
+    .container {
+        height: 50%;
+        width: 650px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-gap: 10px;
+    }
+
+    .img2 {
+        padding-right: 20px;
+    }
+
+
+}
+
+.ft_area {
+    height: 30px;
+    width: 330px
+}
+
+input {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.ctn_color {
+    background-color: rgb(21, 19, 19);
+    color: white;
+}
+
+/* .Local_container {
+    /* visibility: hidden; */
+    height: 50%;
+    width: 360px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 4px;
+    position: relative;
+    left: 30%;
+    border: 2px solid black;
+} */
